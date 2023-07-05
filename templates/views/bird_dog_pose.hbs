@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bird dog Pose - YOGIji</title>
+    {{> headerlinks}}
+
+</head>
+<body>
+
+    <!-- home_container -->
+    <section class="home_container" id="bird_pose_bg">
+                       {{> navbaryog}}
+
+
+        <div class="home_text">
+            <h3>The attitude of gratitude is the highest yoga</h3>
+            <div class="learn">
+               <p>Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- basic pose section -->
+
+    <section class="basic_pose_Container">
+        <h3>BIRD DOG POSE</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, soluta!</p>
+
+        <div class="pose_box">
+            <div class="pose_col1">
+                <div class="pose_banner">
+                    <h4>Pose type: <span id="pose_text"> Balancing on all fours while extending opposite arm and leg.</span></h4>
+                    <h4 id="two">Target Area: <span id="pose_text">The core muscles, including the abs and lower back muscles. </span></h4>
+                    
+                    <div class="image_box">
+                        <img src="Yoga_images/bird_p.gif" class="pose_gif">
+                    </div>
+
+                    <p id="pose_head">Benefits</p>
+                    <p id="pose_head1"> Strengthening the core muscles, including the abs and lower back muscles, which can improve overall posture and alleviate lower back pain, improving balance stability, and coordination, strengthening the upper body muscles.</p>
+
+                    <h1>Duartion: <span id="pose_dur">01:00</span></h1>
+                </div>
+
+                <div class="pose_counter">
+                    <img src="Yoga_images/pose_gif.gif" class="yog_p_gif">
+                    <p>Countdown Starts </p>
+                    <h3 class="num_p1" id="num_p">00 : 00</h3>
+
+                    <div class="pose_btn">
+                        <p id="start" onclick="start_pose()"><i class="fa-solid fa-play" ></i></p>
+                        <p id="rest" onclick="restart_pose()"><i class="fa-solid fa-rotate-right"></i></p>
+                    </div>
+                </div>
+            </div>
+            {{!-- width="660" height="515" --}}
+            <div class="pose_col2">
+<iframe width="660" height="515" class="main_yoga_vid" src="https://www.youtube.com/embed/wiFNA3sqjCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <p id="cal_txt">Calories Burn</p>
+                
+                <div class="calories" id="wgt_box">
+                   <div class="sign_box" id="wgt_cont">
+                   <input type="text" name="name" placeholder="Your weight Here..." id="wgt_value">
+                   <button class="Sign_up" id="find_btn">Find</button>
+                </div>
+                    
+                    
+                </div>
+                <div class="calories">
+                    <p class="mycaloriespara">Bird Dog Pose (Dandayamana Bharmanasana) - <span id="resultcalories">150  </span>calories burn per hour</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- footer_container -->
+            {{> footeryog}}
+
+
+
+    <script src="Js/yoga.js"></script>
+</body>
+</html>

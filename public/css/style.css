@@ -1,0 +1,1607 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+
+.home_container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/yoga_bg3.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar ul li{
+    padding: 0 20px;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    transition: background-color 0.9;
+}
+
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    background-color: transparent;
+    left : 0;
+    bottom: -23px;
+}
+
+.navbar ul li #ul_1:hover:after{
+    width: 100%;
+    background-color: red;
+}
+.navbar ul li #ul_2:hover:after{
+    width: 100%;
+    background-color: rgb(212, 138, 9);
+}
+.navbar ul li #ul_3:hover:after{
+    width: 100%;
+    background-color: rgb(242, 242, 18);
+}
+.navbar ul li #ul_4:hover:after{
+    width: 100%;
+    background-color: rgb(138, 212, 27);
+}
+.navbar ul li #ul_5:hover:after{
+    width: 100%;
+    background-color: rgb(87, 205, 241);
+}
+.navbar ul li #ul_6:hover:after{
+    width: 100%;
+    background-color: rgb(215, 37, 215);
+}
+
+.user_search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e1e1e1;
+    width: 320px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.user_search input{
+    width: 280px;
+    outline: none;
+    border: 0;
+    background-color: #e1e1e1;
+}
+
+.user_search .fa-magnifying-glass{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.user_search input::placeholder{
+    padding: 0 10px;
+    color: #686767;   
+}
+
+.user_profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15px;
+}
+
+.log-in_btn{
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    border: 0;
+    outline: none;
+    background: linear-gradient(45deg, rgb(85, 175, 244),rgb(143, 255, 246));
+}
+
+.log-in_btn:hover{
+    background: linear-gradient(45deg, rgb(62, 166, 245),rgb(156, 246, 238));
+}
+
+.sig-in_btn{
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    border: 0;
+    outline: none;
+    background: linear-gradient(45deg, rgb(149, 231, 111),rgb(255, 255, 143));
+}
+
+.sig-in_btn:hover{
+    background: linear-gradient(45deg, rgb(145, 244, 99),rgb(247, 247, 154));
+}
+
+.fa-right-from-bracket{
+    margin-right: -10px;
+}
+
+
+
+.home_text{
+    text-align: center;
+    margin-top: 15%;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
+}
+
+.learn{
+    border: 2px solid orange;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.learn p{
+   color: orange;
+   text-decoration: none;
+   margin-top: 5px;
+   cursor: pointer;
+   font-weight: 600;
+}
+
+
+/* Counter section */
+
+.counter{
+    width: 100%;
+    height: 120px;
+    margin-top: 163px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub_col{
+    display: flex;
+    margin-top: -15px;
+}
+
+.sub_col span{
+    margin-top: 2px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #72c3f2;
+}
+
+.counter .col_1 h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #72c3f2;
+}
+
+.counter .col_1 p{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+}
+
+.page_Count{
+    width: 350px;
+    height: 120px;
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -300px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.6);
+}
+
+.page_Count p{
+    margin-top: -90px;
+    margin-left: 110px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.page_Count span{
+    font-size: 16px;
+    color: rgb(77, 196, 247);
+}
+
+.page_Count h3{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.yog_gif{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+
+.counter .col_1 .fa-star{
+    font-size: 20px;
+    color: #ffc107;
+}
+
+.counter .col_1 .fa-star-half-stroke{
+    font-size: 20px;
+    color: #ffc107;
+}
+
+/* choose Container */
+
+.choose_Container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #d8f2f4;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+    /* background: radial-gradient(circle farthest-side,#56ab2f, #a8e063); */
+}
+
+.choose_Container #circle{
+    width: 80px;
+    height: 80px;
+    background-color: #d8f2f4;
+    border-radius: 50%;
+    margin-left: 47%;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.4);
+    position:absolute;
+    margin-top: -40px;
+}
+
+.arrow{
+    width: 60px;
+    height: 60px;
+    margin-left: 725px;
+    filter: invert(100%);
+    margin-top: -100px;
+}
+
+.buddha{
+    margin-left: 33%;
+    margin-top: 90px;
+    width: 700px;
+    height: 700px;
+    opacity: 1;
+}
+
+.choose_box{
+    width: 100%;
+    height: 35vh;
+    margin-top: 450px;
+    /* background-color: #23a6d5; */
+}
+
+.choose_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choose_col1{
+    width: 25%;
+    height: 35vh;
+    padding: 0 20px;
+    margin-top: -400px;
+    background-color: #d8f2f4;
+}
+
+.choose_img{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.choose_col1 h3{
+    font-size: 14px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.choose_col1  p{
+    font-size: 10px;
+    /* border: 2px solid black; */
+    color: #686767;
+    width: 250px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 6px;
+}
+
+#choose_img2{
+    width: 130px;
+}
+
+#choose_img3{
+    width: 160px;
+}
+
+
+.chart_gif{
+    width: 650px;
+    height: 450px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid rgb(80, 168, 235);
+    margin-top: 20px;
+}
+
+.fa-arrow-down{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-size: 50px;
+    color: black;
+}
+
+.choose_Container h1{
+    width: 600px;
+    /* border: 2px solid black; */
+    margin-left: 800px;
+    text-align: center;
+    margin-top: -450px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.choose_Container  span{
+    font-family: 'Anton', sans-serif;
+    color: orange;
+    /* margin-left: 180px; */
+}
+
+.choose_Container #choose_para{
+    /* border: 2px solid black; */
+    width: 500px;
+    margin-left: 850px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #686767;
+}
+
+
+
+/* review_container */
+
+
+.review_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #caf6af;
+}
+
+.review_container h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.review_container p{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #686767;
+    text-transform: uppercase;
+}
+
+.review_box_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review_col{
+    margin-top: 20px;
+    width: 380px;
+    height: 255px;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:  box-shadow 0.5;
+}
+
+.review_col:hover{
+    box-shadow:0 0 10px 3px rgba(0,0,0, 0.4);
+}
+
+.rev_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+#img1{
+    border: 6px solid red;
+}
+
+#img2{
+    border: 6px solid orange;
+}
+
+#img3{
+    border: 6px solid rgb(242, 242, 18);
+}
+
+#img4{
+    border: 6px solid rgb(138, 212, 27);
+}
+
+#img5{
+    border: 6px solid rgb(87, 205, 241);
+}
+
+#img6{
+    border: 6px solid rgb(215, 37, 215);
+}
+
+.review_col h3{
+    margin-top: -30px;
+    margin-left: -20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.review_col h5{
+    margin-top: 5px;
+    margin-left: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #878484;
+}
+
+.review_col p{
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #959292;
+    text-transform:none ;
+}
+
+.review_col h5 span{
+    color: orange;
+}
+
+
+/* training_container*/
+
+.training_container{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+    
+   @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+
+    50% {
+    background-position: 100% 50%;
+    }
+    
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+
+
+.training_container h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: larger;
+    color: #fff;
+}
+
+.training_container .text{
+    /* border: 2px solid black; */
+    width: 600px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.training_container .text p{
+    padding: 10xp 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.training_box{
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 105vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+}
+
+.train_para{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.train_para p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-weight: 100;
+}
+
+.train_box1{
+    width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+    background-color: #fff;
+}
+
+.train_para{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.train_btn_box{
+    width: 100%;
+    height: 10vh;
+}
+
+.train_btn{
+    margin-left: 43%;
+    margin-top: -10px;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #ef6b43;
+    border: 0;
+    box-shadow: -3px 3px 1px 2px orange;
+}
+
+.train_btn:hover{
+    background-color: #ef582a;
+}
+
+.train_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vid_info{
+    width: 420px;
+    height: 20px;
+    background-color: red;
+    margin-top: -6px;
+    display: flex;
+}
+
+.info_col1{
+    width: 33%;
+    color: #fff;
+    height:20px;
+    /* background-color: #23d5ab; */
+}
+
+.info_col1 p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info_col1 .fa-video{
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.info_col2{
+    width: 33%;
+    height:20px;
+    /* background-color: #91d523; */
+    border: 3px solid #fff;
+    color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.info_col2 .star{
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.info_col2 .fa-star{
+    font-size: 12px;
+}
+
+.info_col2 .fa-star-half-stroke{
+    font-size: 12px;
+}
+
+.info_col3{
+    width: 34%;
+    height:20px;
+    /* background-color: #8adaf2; */
+}
+
+.info_col3 p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-size: bolder;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: -1px;
+}
+
+#info2{
+    background-color: orange;
+}
+
+#info3{
+    background-color: #ffc107;
+}
+#info4{
+    background-color: rgb(138, 212, 27);
+}
+#info5{
+    background-color: rgb(87, 205, 241);
+}
+#info6{
+    background-color: rgb(215, 37, 215);
+}
+
+
+/* Use_container */
+
+.Use_container{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+}
+
+.Use_container h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.Use_container p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #848181;
+}
+
+.use_box{
+    width: 100%;
+    margin-top: 20px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.use_col1{
+    width: 60%;
+    height: 100vh;
+    background: linear-gradient(45deg, #bae883,#699533, #629129  )
+    /* #a8e063; */
+}
+
+.use_img_box1{
+    width: 300px;
+    margin-left: 8%;
+    border-radius: 10px;
+    margin-top: 3%;
+    /* border: 4px solid #a8e063; */
+    height: 500px;
+    position: relative;
+    /* background-color: #a8e063; */
+}
+
+.vid_gif{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.use_img_box2{
+    width: 300px;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-top:-20%;
+    position: absolute;
+    height: 500px;
+    /* background-color: #a8e063; */
+}
+
+.Video_home{
+    width: 400px;
+    border-radius: 10%;
+    height: 500px;
+    margin-top: 3px;
+    margin-left: -23px;
+}
+
+.use_col2 h1{
+    text-transform: capitalize;
+    margin-left: 260px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #629129;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+}
+
+.use_col2 p{
+    text-transform: capitalize;
+    margin-left: 150px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.use_col2 h3{
+    text-transform: capitalize;
+    margin-left: 200px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#title{
+    font-size: 80px;
+    margin-left: 240px;
+    color: orange;
+}
+
+.use_col2 .yog_para{
+    width: 500px;
+    height: 300px;
+}
+
+.use_col2 .yog_para p{
+    margin-top: 10px;
+    text-align: center;
+    /* border: 2px solid black; */
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.yog_avag {
+    margin-top: -130px;
+    margin-left: -100px;
+}
+
+#yog_txt{
+    margin-top: 10px;
+    text-align: center;
+    /* border: 2px solid black; */
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    color: orange;
+}
+
+.yog_avag ul{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.yog_avag ul li{
+    list-style: none;
+    line-height: 1.7;
+}
+
+.yog_avag ul li span{
+    font-size: 15px;
+}
+
+
+.fa-check{
+    font-size: 20px;
+    color: #629129;
+    margin-right: 10px;
+}
+
+/* details_container */
+
+.details_container{
+    width: 100%;
+    height: 40vh;
+    margin-top: 450px;
+    background: linear-gradient(90deg, rgba(15,80,142,1) 0%, rgba(76,170,246,1) 18%, rgba(99,208,249,1) 100%);
+
+}
+
+.details_container h3{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.details_container p{
+    text-align: center;   
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.sign_box{
+    margin-top: 30px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.sign_box input{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(11, 74, 122);
+    margin-right: 60px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.Sign_up{
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(99,208,249,1) ;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Sign_up:hover{
+    background-color: #f7eeee;
+}
+
+/* footer_container */
+
+.footer_container{
+    width: 100%;
+    height: 30vh;
+    background-color: #eee9e9;
+}
+
+.foot_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot_col1{
+    margin-top: 40px;
+}
+
+.foot_col1 h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.foot_col1 ul{
+    margin-top: 20px;
+}
+
+.foot_col1 ul li{
+    font-size: 14px;
+    list-style: none;
+    color: #686767;
+    line-height: 1.8;
+    text-transform: capitalize;
+}
+
+#foot_para{
+    margin-top: -60px;
+    
+}
+
+.foot_icons{
+    margin-top: 20px;
+    padding: 0 10px;
+    margin-left: -15px;
+}
+
+.foot_icons .fa-twitter{
+    padding: 0 8px;
+    font-size: 20px;
+    color: #686767;
+    cursor: pointer;
+}
+
+.foot_icons .fa-twitter:hover{
+    color: rgb(19, 140, 220);
+}
+
+.foot_icons .fa-facebook{
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #686767;
+}
+
+.foot_icons .fa-facebook:hover{
+    color: rgb(22, 152, 252);
+}
+
+.foot_icons .fa-youtube{
+    padding: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #686767;
+}
+
+.foot_icons .fa-youtube:hover{
+    color: red;
+}
+
+.foot_icons .fa-instagram{
+    padding: 0 8px;
+    color: #686767;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.foot_icons .fa-instagram:hover{
+    color: hotpink
+}
+
+
+
+/* Classes section
+
+home part */
+
+#home2{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/yoga_bg.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+
+/* select_container */
+
+.select_container{
+    width: 100%;
+    height: 200vh;
+    background-color: #bae883;
+}
+
+.header_pose{
+    width: 100%;
+    height: 10vh;
+    /* background-color: rgb(207, 56, 25); */
+}
+
+.header_pose h4{
+    font-size: 40px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 5px;
+    font-family: 'Anton', sans-serif;
+}
+
+.select_para{
+    width: 100%;
+    height: 20vh;
+    /* background-color: pink; */
+}
+
+.select_para h3{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.select_para p{
+    color: #686767;
+    font-size: 14px;
+    text-align: center;
+}
+
+.select_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select_col{
+    width: 15%;
+    height: 45vh;
+    background-color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5;
+    margin-top: 15px;
+}
+
+.select_col:hover{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.4);
+    transform: translateY(-8px);
+}
+
+.pose_img{
+    width: 220px;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    position: relative;
+    height: 190px;
+}
+
+.select_col h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.select_col p{
+    font-size: 10px;
+    color: #686767;
+    text-align: center;
+    font-weight: 500;
+}
+
+#time{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    color: black
+}
+
+#time span{
+    color: #23a6d5;
+}
+
+.start_btn{
+    margin-left: 50px;
+    /* margin-top: -10px; */
+    /* margin-bottom: 50px; */
+    padding: 5px 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #23d5ab;
+}
+
+.start_btn:hover{
+    background-color: #12cda1;
+}
+
+.fa-heart{
+   margin-top: -190px;
+   position: absolute;
+   margin-left: 70px;
+   color: #fff;
+   font-size: 20px;
+}
+
+ .select_basic{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #23a6d5; */
+}
+
+.select_inter{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #d523a5; */
+}
+
+.select_advan{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #edf88d; */
+}
+
+#pose_para{
+    font-size: 14px;
+}
+
+
+/* cat_pose section */
+
+#cat_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/cat_p.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+
+/* basic_pose_Container */
+
+.basic_pose_Container{
+    width: 100%;
+    height: 130vh;
+    background-color: #bae883;
+}
+
+.basic_pose_Container h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+
+.basic_pose_Container p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pose_box{
+    width: 100%;
+    height: 85vh;
+    margin-top: 10px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pose_col1{
+    width: 50%;
+    height: 110vh;
+    margin-top: 200px;
+    /* background-color: rgb(234, 248, 145); */
+}
+
+.pose_col1 h4{
+    text-align: center;
+    padding-top: 20px;
+    color: #699533;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#pose_text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #686767;
+}
+
+#two{
+    margin-top: -15px;
+}
+
+.image_box{
+    width: 350px;
+    height: 500px;
+    /* background-color: #23a6d5; */
+    margin-top: 20px;
+    position: relative;
+    margin-left: 20%;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.pose_gif{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.pose_col1 #pose_head{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #699533;
+    font-weight: 800;
+}
+
+.pose_col1 #pose_head1{
+    font-size: 12px;
+    /* border: 2px solid black; */
+    width: 500px;
+    margin-left: 15%;
+    color: #686767;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.pose_col1 h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3px;
+    font-weight: 800;
+}
+
+.pose_col1 #pose_dur{
+    font-size: 25px;
+    font-weight: 600;
+    color: #699533;
+}
+
+.pose_col1 .pose_banner{
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 105vh;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.pose_col2{
+    width: 48%;
+    height: 105vh;
+    margin-top: 190px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.main_yoga_vid{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.calories{
+    width: 92%;
+    height: 10vh;
+    background-color: #15c1e8;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#wgt_box{
+    margin-top: -30px;
+}
+
+
+.wgt_cont{
+    margin-left: 35%;
+}
+
+#cal_txt{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+#cal_txt1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+#wgt_cont{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.calories .mycaloriespara {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.calories .mycaloriespara  #resultcalories{
+    font-size: 30px;
+    color: rgb(44, 44, 81);
+    font-family: 'Anton', sans-serif;
+}
+
+.calories .mycaloriespara {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.calories .mycaloriespara  #resultcalories1{
+    font-size: 30px;
+    color: rgb(44, 44, 81);
+    font-family: 'Anton', sans-serif;
+}
+.calories .mycaloriespara  #resultcalories2{
+    font-size: 30px;
+    color: rgb(44, 44, 81);
+    font-family: 'Anton', sans-serif;
+}
+
+.pose_counter{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    margin-left: 31.6%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: -33%;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.yog_p_gif{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.pose_counter p{
+    margin-top: -85px;
+    margin-right: -80px;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* color: #699533; */
+    font-weight: 900;
+}
+
+#num_p{
+    font-size: 35px;
+    color: #699533;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.pose_btn{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    margin-left: 75px;
+    /* background-color: #bae883; */
+}
+
+.pose_btn p{
+    margin-top: -5px;
+    margin-left: -70px;
+    font-size: 20px;
+}
+
+#rest{
+    margin-left: -90px;
+}
+
+
+#sphinx_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Sphinx-Pose.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#bird_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/bird_p.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;   
+}
+
+#tree_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/tree_p.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;  
+}
+
+#pose_tree_gif{
+    width: 350px;
+    height: 500px;
+    margin-left: -35px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+#img_tree{
+    width: 280px;
+    height: 500px;
+}
+
+#child_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Child-Pose.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh; 
+}
+
+#corpse_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Corpse-pose.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+
+/* Intermediate section */
+
+.inter_pose_Container{
+    width: 100%;
+    height: 130vh;
+    background-color: #e8e383;
+}
+
+.inter_pose_Container h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+
+.inter_pose_Container p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#knee_chest_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Sleeping-knee.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#goddess_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Goddess-p.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#for_bent_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/bent_p.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#cobra_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Cobra-Pose.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#walk_dog_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Walk-dog.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#inter_corpse_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Corpse-pose.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+/* Adavnce section */
+
+.advan_pose_Container{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(252, 212, 219);
+}
+
+.advan_pose_Container h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+
+.advan_pose_Container p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#rev_bent_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/Revolved_p.jpg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#butterfly_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/butterfly-pose.webp');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}
+
+#garland_pose_bg{
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('/Yoga_images/garland-p.jpeg');
+    background-position: center;
+    background-size: cover; 
+    height: 80vh;
+}

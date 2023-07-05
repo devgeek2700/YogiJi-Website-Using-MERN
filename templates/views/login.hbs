@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="icon" href="Yoga_images/yog_logo_f.png" sizes="222x222">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="Yoga_images/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="Yoga_images/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="/login" method="POST">
+				<img src="Yoga_images/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Email</h5>
+           		   		<input type="email" class="input" name="Email">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" name="Password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+            	<div class="account">
+					<p>Don't have Account? <span id="logsign_up"><a href="/register">Sign Up</a></span></p>
+				</div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="Js/login.js"></script>
+</body>
+</html>
