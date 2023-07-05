@@ -8,12 +8,6 @@ The frontend is created using Html, Css, Javasrcipt and for backend I have used 
 A yoga website combines convenience, variety, accessibility, learning resources, community, and personalization to enhance the overall yoga experience and make it more accessible to a wider audience.
 
 
-##   My Created API 
-
-
-
-[FemaleRunnersAPI](http://localhost:8080/runner)
-
 
 ## To Install 
 
