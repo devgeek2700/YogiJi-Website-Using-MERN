@@ -7,11 +7,34 @@ The frontend is created using Html, Css, Javasrcipt and for backend I have used 
 
 A yoga website combines convenience, variety, accessibility, learning resources, community, and personalization to enhance the overall yoga experience and make it more accessible to a wider audience.
 
+In this project, I have created proper Login and Register System and also integrated cookies using cookie-parser and authenticated user can only visit through the main pages in the websites through using jsonwebtoken.
+
+I have create password encryption using bcryptjs and for view engine I have used hbs.
+
+I have created this yoga website, so that user can practice the yoga pose by looking at the videos given in the website. 
 
 
-## To Install 
+##   My Hosted YojiJi Website
 
- - In type Cmd to install node_modules ----> npm install 
+
+
+https://yojijiapp.onrender.com
+
+
+## To Install Dependencies
+
+Type in Command Prompt to install node_modules in your project folder 
+
+```bash
+    npm install 
+```
+
+To Run the project type in  Command Prompt in your project folder
+
+```bash
+    npm run dev 
+```
+
 
 
 ## Frontend
