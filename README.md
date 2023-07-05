@@ -3,7 +3,7 @@
 
 I have created a yoga website using MERN Stack. This website was created while learning the Basis of MERN Stack.
 
-The frontend is created using Html, Css, Javascript and, for backend, I have used NodeJs, ExpressJs and others, more, Dependencies and, for databases, I have used MongoDB.
+The frontend is created using HTML, CSS, Javascript and, for backend, I have used NodeJs, ExpressJs and others, more, Dependencies and, for databases, I have used MongoDB.
 
 A yoga website combines convenience, variety, accessibility, learning resources, community, and personalization to enhance the overall yoga experience and make it more accessible to a wider audience.
 
