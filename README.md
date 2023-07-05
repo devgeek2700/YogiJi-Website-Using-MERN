@@ -75,7 +75,7 @@ To Run the project type in  Command Prompt in your project folder
 
 ## Home Page
 
-![App Screenshot](https://github.com/devgeek2700/YogiJi-Website-Using-MERN/blob/master/Ouput/Home.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogiJi-Website-Using-MERN/blob/master/Ouput/home_page.png?raw=true)
 
 ## Register Page
 
