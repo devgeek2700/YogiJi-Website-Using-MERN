@@ -5,13 +5,13 @@ I have created a yoga website using MERN Stack. This website was created while l
 
 The frontend is created using HTML, CSS, Javascript and, for backend, I have used NodeJs, ExpressJs and others, more, Dependencies and, for databases, I have used MongoDB.
 
-A yoga website combines convenience, variety, accessibility, learning resources, community, and personalization to enhance the overall yoga experience and make it more accessible to a wider audience.
-
 In this project, I have created a proper Login and Register System and also integrated cookies using a cookie-parser and authenticated users can only visit the main pages on the websites using jsonwebtoken.
 
 I have created password encryption using bcryptjs and for viewing engines I have used hbs.
 
 I have created this yoga website, so that users can practice yoga poses by looking at the videos given on the website.
+
+A yoga website combines convenience, variety, accessibility, learning resources, community, and personalization to enhance the overall yoga experience and make it more accessible to a wider audience.
 
 
 ##   My Hosted YojiJi Website
